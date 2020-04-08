@@ -47,6 +47,12 @@ const validateInput = (input) => {
     //     validation.push(true)
     // }
 
+    if(input.length === 0){
+        arrayErrorMessages.push("Without number")
+        validation.push(false)
+    }else{
+        validation.push(true)
+    }
 
     if(/[23456789]/.test(input)){
         arrayErrorMessages.push("Input has number diferents of 0 and 1.")
