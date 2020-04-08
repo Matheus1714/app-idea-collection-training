@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.larger-box{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: chocolate;
+    border-radius: 
+        100px 100px 100px 100px
+    ;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.code{
+    width: 400px;
+    height: 400px;
+    background-color: darkcyan;
+}
+
+.curt-box{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+}
+.submit-item{
+    grid-row: 3;
+    grid-column: 1 / 3;
+}
+
+.inputValues{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+
+.submit, .copy{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.copy-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.item-left{
+    grid-column: 1;
+    grid-row: 2;
+}
