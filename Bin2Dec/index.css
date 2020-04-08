@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 100;
+    grid-template-rows: 10% 10% 10% auto;
+    position: absolute;
+}
+
+.card{
+    min-width: 300px;
+    min-height: 200px;
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+.messageRequired{
+    margin-top: 15px;
+    text-align: center;
+}
+#textMessage{
+    font-size: 20px;
+}
+
+#inputValue{
+    text-align: left;
+    margin-top: 10px;;
+}
+
+#submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: gray;
+    color: #000;
+    border-color: gray;
+}
+.submitButton{
+    padding: 20px;
+}
+
+#submit:hover{
+    background-color: lightsteelblue;
+}
+
+#submit:active{
+    background-color: lightslategray;
+}
+
+.result{
+    background-color: #FFF;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.resultValue{
+    margin-top: 15px;
+}
+
+.errorMessage{
+    color: red;
+}
