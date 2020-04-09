@@ -3,7 +3,7 @@ let submit = document.getElementsByClassName('submit')[0]
 const textBorderRadius = () => {
     let inputValues = document.getElementsByClassName('inputValues')
     let valuesBorder = ""
-    textCode.textContent = "border-radius: "
+    
     for(let i = 0; i < inputValues.length; i++){
         valuesBorder += inputValues[i].value + 'px '
     }
@@ -23,6 +23,7 @@ submit.addEventListener('click', (event) => {
     let valuesBorder = textBorderRadius()
 
     textCode.textContent = ""
+    textCode.textContent = "border-radius: "
     textCode.textContent += valuesBorder
     textCode.textContent += ";"
 
